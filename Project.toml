@@ -3,6 +3,10 @@ uuid = "bf6d8bf4-2932-452f-9a99-a5039e80dd9e"
 authors = ["Siddharth Bhatia <sidb60200@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+GridWorlds = "e15a9946-cd7f-4d03-83e2-6c30bacb0043"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
 [compat]
 julia = "1"
 

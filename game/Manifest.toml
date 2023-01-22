@@ -2,7 +2,7 @@
 
 julia_version = "1.8.5"
 manifest_format = "2.0"
-project_hash = "574228ffc140cae75bc75a4b06c183c618394b93"
+project_hash = "8a081fa17263f6736f452f8f25fe86cfbb3752ea"
 
 [[deps.AbstractTrees]]
 git-tree-sha1 = "03e0550477d86222521d254b741d470ba17ea0b5"
@@ -41,6 +41,12 @@ version = "0.18.13"
 [[deps.Dates]]
 deps = ["Printf"]
 uuid = "ade2ca70-3891-5945-98fb-dc099432e06a"
+
+[[deps.Gambare]]
+deps = ["GridWorlds", "Random"]
+path = ".."
+uuid = "bf6d8bf4-2932-452f-9a99-a5039e80dd9e"
+version = "0.1.0"
 
 [[deps.GridWorlds]]
 deps = ["DataStructures", "REPL", "Random", "ReinforcementLearningBase"]
